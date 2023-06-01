@@ -23,7 +23,9 @@ Route::get('/','UserController@index')->name('homepage');
 Route::any('/createPrice/{id}','UserController@createPrice')->name('createPrice');
 Route::get('/installmentscheme','UserController@planfortommorrowhome')->name('planfortommorrowhome');
 Route::view('/humanright','atonigbahome')->name('atonigbahome');
-Route::get('admin','UserController@admin')->name('admin')->middleware('auth');
+Route::get('dashboard','UserController@admin')->name('admin')->middleware('auth');
+
+Route::any('/logout', 'HomeController@logout')->name('logout');
 Route::get('planfortommorrowform','UserController@planfortommorrowform')->name('planfortommorrowform');
 Route::post('saveplanfortommorrowform','UserController@saveplanfortommorrowform')->name('saveplanfortommorrowform');
 Route::get('atonigbaform','UserController@atonigbaform')->name('atonigbaform');
@@ -31,8 +33,9 @@ Route::get('downloadatonigba/{id}','UserController@downloadatonigba')->name('dow
 Route::get('downloadplanfortommorrow/{id}','UserController@downloadplanfortommorrow')->name('downloadplanfortommorrow');
 Route::post('saveatonigbaform','UserController@saveatonigbaform')->name('saveatonigbaform');
 Route::post('contact','UserController@contact')->name('contact');
-Auth::routes();
 Route::get('moudownload','UserController@moudownload')->name('moudownload')->middleware('auth');
+Auth::routes();
+
 
 
 Route::get('users','UserController@index')->name('user.index');

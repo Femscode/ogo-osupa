@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 use App\Home;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Redirect;
 
 class HomeController extends Controller
 {
@@ -14,6 +17,13 @@ class HomeController extends Controller
     public function index()
     {
         return view('create.home');
+    }
+    public function logout() {
+        Auth::logout();
+        // return Redirect::route('login');
+        Session::flush();
+
+        return Redirect::away('login');
     }
 
     /**

@@ -112,7 +112,7 @@
             <p>
             Investment will always yield the best profit, you can make your money works for you if you invest with the right company, try us today and join a group of our testimonials.
         </p>
-            <a href="https://wa.me/2348091265228?text=Hi%20my%20name%20is%20(%20Please%20Input%20your%20name%20)%20I%20want%20to%20make%20an%20investment%20..." class="btn-learn-more">Invest Now</a>
+            <a href="https://wa.me/2348082678077?text=Hi%20my%20name%20is%20(%20Please%20Input%20your%20name%20)%20I%20want%20to%20make%20an%20investment%20..." class="btn-learn-more">Invest Now</a>
           </div>
         </div>
 
@@ -134,7 +134,7 @@
               <h4><a href="">Make Contact</a></h4>
               <p>Get in touch with us throughh calls or direct whatsapp message in the link below to start an investment plan</p>
               <a href='tel:+234 808 267 8077'><button class='bx bxl-call btn btn-primary btn-sm'>Call Us</button></a>
-              <a href='https://wa.me/2348091265228?text=Hi%20my%20name%20is%20(%20Please%20Input%20your%20name%20)%20I%20want%20to%20make%20an%20investment%20with%20Plan%20for%20tommorrow...'><button class='bx bxl-call btn btn-success btn-sm'>Message Us</button></a>
+              <a href='https://wa.me/2348082678077?text=Hi%20my%20name%20is%20(%20Please%20Input%20your%20name%20)%20I%20want%20to%20make%20an%20investment%20with%20Plan%20for%20tommorrow...'><button class='bx bxl-call btn btn-success btn-sm'>Message Us</button></a>
             </div>
           </div>
 
@@ -326,7 +326,7 @@
               <p>You can partner with us without meeting us, all you need to do is to message or call us through the button below.
               <br> 08082678077<br>
               <a href='tel:+234 808 267 8077'><button class='bx bxl-call btn btn-primary btn-sm'>Call Us</button></a>
-              <a href='https://wa.me/2348091265228?text=Hi%20my%20name%20is%20(%20Please%20Input%20your%20name%20)%20I%20want%20to%20make%20an%20investment%20with%20Plan%20for%20tommorrow...'><button class='bx bxl-call btn btn-success btn-sm'>Message Us</button></a>
+              <a href='https://wa.me/2348082678077?text=Hi%20my%20name%20is%20(%20Please%20Input%20your%20name%20)%20I%20want%20to%20make%20an%20investment%20with%20Plan%20for%20tommorrow...'><button class='bx bxl-call btn btn-success btn-sm'>Message Us</button></a>
                </p>
             </div>
             </div>

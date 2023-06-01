@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Ogo Osupa Concept 2</title>
+  <title>Ogo Osupa Concept</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -45,7 +45,7 @@
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope d-flex align-items-center"><a
-            href="mailto:contact@ogoosupaconcept.com">support@ogoosupaconcept.com</a></i>
+            href="mailto:support@ogoosupaconcept.com">support@ogoosupaconcept.com</a></i>
         <i class="bi bi-phone d-flex align-items-center ms-4"><span>+234 808 267 8077</span></i>
       </div>
 
@@ -962,7 +962,7 @@
             <div class="info-box">
               <i class="bx bx-map"></i>
               <h3>Our Address</h3>
-              <p>No 4, Beside Frontline Hotel, Oluwo Road, Onikolobo, Abeokuta</p>
+              <p>Suite 32, Estate plaza, Magodo Phase 2, Lagos State.</p>
             </div>
           </div>
 
@@ -980,12 +980,12 @@
               <p>+234 808 267 8077<br>+234 812 411 9883 </p>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="200">
+          {{-- <div class="col-xl-3 col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="200">
             <h3>Our Office</h3>
             <div class="col-md-5 order-1 order-md-2">
               <img src="assets/img/ogo_office.jpg" class="img-fluid" alt="">
             </div>
-          </div>
+          </div> --}}
         </div>
 
         <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
@@ -1043,9 +1043,8 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>O.O.M.C</h3>
             <p>
-              Address 1:No 4, Beside Frontline Hotel,<br> Oluwo Road, Onikolobo,<br> Abeokuta
-              Ogun State <br><br>
-              Address 2: No 63, Emmanuel Keshi Street,<br> Magbodo Phase 2,<br>Lagos<br><br>
+              Suite 32, Estate plaza, <br>Magodo Phase 2, <br>Lagos State <br><br>
+              Address 2: Onikolobo, <br> Behind WAEC Office<br>Ogun State<br><br>
 
               <strong>Phone:</strong> +234 808 267 8077<br>
               <strong>Email:</strong> support@ogoosupaconcept.com<br>
@@ -1090,7 +1089,7 @@
 
       <div class="me-lg-auto text-center text-lg-start">
         <div class="copyright">
-          &copy; Powered by<strong><a href='https://thecaretech.org'> Caretech</a></strong>. All Rights Reserved, 2021
+          &copy; Powered by<strong><a href='https://thecaretech.org'> Caretech</a></strong>. All Rights Reserved, <?php echo Date('Y')?>
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
