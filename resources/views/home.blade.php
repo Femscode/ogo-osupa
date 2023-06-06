@@ -96,7 +96,7 @@
       <h2>Providing high quality and reliable service that satisfy your demand and expectations.</h2>
       <div class="d-flex align-items-center">
         <i class="bx bxs-right-arrow-alt get-started-icon"></i>
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+        <a href="/installmentscheme" class="btn-get-started scrollto">Plan For Tommorrow</a>
       </div>
     </div>
   </section><!-- End Hero -->
