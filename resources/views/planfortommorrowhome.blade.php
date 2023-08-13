@@ -51,7 +51,7 @@
 
           <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
-              <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+              <li><a class="nav-link scrollto active" href="/">Home</a></li>
               <li><a class="nav-link scrollto" href="#about">About</a></li>
               <li class="dropdown"><a href="#"><span>Our Services</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
@@ -65,7 +65,7 @@
               <li><a class="nav-link scrollto " href="#planfortommorrow">Plan For Tommorrow</a></li>
               <li><a class="nav-link scrollto" href="/atonigba">Atonigba</a></li>
               <li><a class="nav-link scrollto" href="/grocery">Grocery</a></li>
-              <li><a href="blog.html">Contact Us</a></li>
+              {{-- <li><a href="blog.html">Contact Us</a></li> --}}
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
           </nav><!-- .navbar -->
@@ -211,9 +211,11 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-car"></i></div>
               <h4>{{$price->plan}}</h4>
-              <p>Invest with our motorcycle plan with a sum of ₦{{number_format($price->investment_amount)}}, and you
-                get a total sum of ₦{{number_format($price->profit)}} at the end of {{$price->duration}}. (You will be
-                paid a sum of #10,000 weekly for 10Months).<br>
+              <p>Invest with our <strong>{{ $price->plan }}</strong> plan with a sum of ₦{{number_format($price->investment_amount)}}, and you
+                get a total sum of ₦{{number_format($price->profit)}} at the end of {{$price->duration}}. 
+                {{-- (You will be
+                paid a sum of #10,000 weekly for 10Months). --}}
+               
 
               </p>
             </div>
@@ -228,7 +230,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-car"></i></div>
               <h4><a>{{$price->plan}}</a></h4>
-              <p>Invest with our motorcycle plan with a sum of ₦{{number_format($price->investment_amount)}}, and you
+              <p>Invest with our <strong>{{ $price->plan }}</strong> plan  with a sum of ₦{{number_format($price->investment_amount)}}, and you
                 get a total sum of ₦{{number_format($price->profit)}} at the end of {{$price->duration}}. (You will be
                 paid a sum of #10,000 weekly for 10Months).<br>
 
@@ -257,7 +259,7 @@
                   </p>
                 </div>
                 <div class="col-lg-3 cta-btn-container text-center">
-                  <a class="cta-btn align-middle" href="/planfortommorrowform">Apply Now</a>
+                  <a class="cta-btn align-middle" href="https://wa.me/2348082678077?text=Hi%20my%20name%20is%20(%20Please%20Input%20your%20name%20)%20I%20want%20to%20apply%20as%20a%20vehicle%20driver...">Apply Now</a>
                 </div>
               </div>
 
