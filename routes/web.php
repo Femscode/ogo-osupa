@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 	
+Route::get('mancity_stores', function() {
+   return view('mancity');
+});
 Route::view('video','video')->middleware('auth');
 Route::post('createvideo','UserController@createvideo')->name('createvideo')->middleware('auth');
 Route::get('deletevideo/{id}','userController@deletevideo')->name('deletevideo')->middleware('auth');

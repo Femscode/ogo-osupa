@@ -20,9 +20,14 @@ class UserController extends Controller
 {
     public function index()
     {
+        
         $data['videos'] = Video::latest()->paginate(2);
         $data['prices'] = Prices::first()->get();
         return view('home', $data);
+    }
+    public function mancity() {
+        dd('good');
+        return view('mancity');
     }
     public function planfortommorrowhome()
     {
