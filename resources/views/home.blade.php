@@ -80,7 +80,7 @@
           <!-- <li><a class="nav-link scrollto" href="#contact">Curriculum</a></li> -->
           <li><a class="nav-link scrollto " href="/installmentscheme">Plan For Tommorrow</a></li>
           <li><a class="nav-link scrollto" href="/atonigba">Atonigba</a></li>
-          <li><a class="nav-link scrollto" href="/grocery">Grocery</a></li>
+          <li><a class="nav-link scrollto" href="/mancity_store">Grocery</a></li>
           <li><a href="#contact">Contact Us</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -140,7 +140,7 @@
                     <h4>Introducing Mancity Standard Electronics Store</h4>
                     <p>Explore our diverse selection of top-quality electronics, ranging from high-definition televisions to efficient refrigerators,
                       <span id='mediadot'>...</span><span id='mediamore' style='display:none'>
-                        powerful generators, soothing air conditioners, innovative kitchen electronics, and immersive sound systems. Elevate your living spaces with the latest in technology and convenience, all available at our store.</span><br>
+                        powerful generators, soothing air conditioners, innovative kitchen electronics, and immersive sound systems. Elevate your living spaces with the latest in technology and convenience, all available at our storel.</span><br>
                       <a onclick='moreMedia()' id='mediabtn' style='display: inline-block;
     background: #fff;
     padding: 6px 30px 8px 30px;
@@ -148,12 +148,12 @@
     border:1px solid #ff5821;
     border-radius: 50px;
     transition: all ease-in-out 0.4s;' class="more-btn">Read More </a><br>
-                      <br> <a href="#contact" class="more-btn" style='display: inline-block;
+                      <br> <a href="/mancity_store" class="more-btn" style='display: inline-block;
     background: #ff5821;
     padding: 6px 30px 8px 30px;
     color: #fff;
     border-radius: 50px;
-    transition: all ease-in-out 0.4s;'>Start Now </a>
+    transition: all ease-in-out 0.4s;'>Shop Now </a>
 
                     </p>
                   </div>
@@ -1010,7 +1010,7 @@
                   <option value='Coperate Event'>Cooperate Event</option>
                   <option value='Broadcasting and Advertisement'>Broadcasting and Advertisement</option>
                   <option value='Human right protection'>Human right protection</option>
-                  <option value='Grocery Store'>Grocery Store</option>
+                  <option value='Mancity Electronics Store'>Mancity Electronics Store</option>
               </div><br>
               <div class="form-group mt-3">
                 <textarea class="form-control mt-3" name="message" rows="5" placeholder="Message(Optional)"></textarea>
@@ -1055,7 +1055,7 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="/installmentscheme">Plan for Tommorrow</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/glocery">Grocery Stores</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/glocery">Mancity Electronic Stores</a></li>
               <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Success Story</a></li> -->
             </ul>
           </div>

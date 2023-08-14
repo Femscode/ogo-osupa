@@ -64,7 +64,7 @@
               <!-- <li><a class="nav-link scrollto" href="#contact">Curriculum</a></li> -->
               <li><a class="nav-link scrollto " href="#planfortommorrow">Plan For Tommorrow</a></li>
               <li><a class="nav-link scrollto" href="/atonigba">Atonigba</a></li>
-              <li><a class="nav-link scrollto" href="/grocery">Grocery</a></li>
+              <li><a class="nav-link scrollto" href="/mancity_store">Mancity Electronic Store</a></li>
               {{-- <li><a href="blog.html">Contact Us</a></li> --}}
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>

@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 	
-Route::get('mancity_stores', function() {
+Route::get('mancity_store', function() {
    return view('mancity');
 });
 Route::view('video','video')->middleware('auth');
