@@ -192,7 +192,7 @@
 
         <div class="offcanvas offcanvas-start" tabindex="-1" id="navbar-default" aria-labelledby="navbar-defaultLabel">
           <div class="offcanvas-header pb-1">
-            <a href="#"><img src="mancity/assets/images/logo/freshcart-logo.svg" alt="eCommerce HTML Template"></a>
+           <h2>MSE</h2>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
@@ -286,9 +286,12 @@
                     Brands
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="pages/store-list.html">Store List</a></li>
-                    <li><a class="dropdown-item" href="pages/store-grid.html">Store Grid</a></li>
-                    <li><a class="dropdown-item" href="pages/store-single.html">Store Single</a></li>
+                    <li><a class="dropdown-item" href="pages/store-list.html">Hisense</a></li>
+                    <li><a class="dropdown-item" href="pages/store-grid.html">LG</a></li>
+                    <li><a class="dropdown-item" href="pages/store-single.html">OX</a></li>
+                    <li><a class="dropdown-item" href="pages/store-single.html">Polyster</a></li>
+                    <li><a class="dropdown-item" href="pages/store-single.html">Panasonic</a></li>
+                    <li><a class="dropdown-item" href="pages/store-single.html">And Lot More</a></li>
                   </ul>
                 </li>
              
@@ -354,7 +357,7 @@
         <div class="d-flex justify-content-between align-items-start ">
           <div>
             <h5 class="mb-1" id="locationModalLabel">Choose your Delivery Location</h5>
-            <p class="mb-0 small">Enter your address and we will specify the offer you area. </p>
+            <p class="mb-0 small">Purchase products more than NGN100,000 and enjoy free delivery to your area. </p>
           </div>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
@@ -373,34 +376,32 @@
 
               <a href="#"
                 class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action active">
-                <span>Alabama</span><span>Min:$20</span></a>
+                <span>Onikolobo/Panseke</span><span>FREE</span></a>
               <a href="#"
                 class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
-                <span>Alaska</span><span>Min:$30</span></a>
+                <span>Ibara Housing </span><span>FREE</span></a>
               <a href="#"
                 class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
-                <span>Arizona</span><span>Min:$50</span></a>
+                <span>Kuto</span><span>FREE</span></a>
               <a href="#"
                 class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
-                <span>California</span><span>Min:$29</span></a>
+                <span>Oshiele</span><span>FREE</span></a>
               <a href="#"
                 class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
-                <span>Colorado</span><span>Min:$80</span></a>
+                <span>Alabata - Funaab</span><span>FREE</span></a>
               <a href="#"
                 class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
-                <span>Florida</span><span>Min:$90</span></a>
+                <span>Oke-Ilewo</span><span>FREE</span></a>
               <a href="#"
                 class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
-                <span>Arizona</span><span>Min:$50</span></a>
+                <span>Quarry</span><span>FREE</span></a>
               <a href="#"
                 class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
-                <span>California</span><span>Min:$29</span></a>
+                <span>Others in Abeokuta</span><span>FREE</span></a>
               <a href="#"
                 class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
-                <span>Colorado</span><span>Min:$80</span></a>
-              <a href="#"
-                class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
-                <span>Florida</span><span>Min:$90</span></a>
+                <span>Others outside Abeokuta</span><span>FREE</span></a>
+              
             </div>
           </div>
         </div>
@@ -1136,7 +1137,7 @@
               <li class="nav-item mb-2"><a href="#!" class="nav-link">Shipping</a></li>
               <li class="nav-item mb-2"><a href="#!" class="nav-link">Product Returns</a></li>
               <li class="nav-item mb-2"><a href="#!" class="nav-link">FAQ</a></li>
-              <li class="nav-item mb-2"><a href="pages/shop-checkout.html" class="nav-link">Shop Checkout</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link">Shop Checkout</a></li>
             </ul>
           </div>
         
