@@ -419,8 +419,8 @@
             <div class="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
               <span class="badge text-bg-warning">Mancity Standard Electronics</span>
 
-              <h2 class="text-dark display-5 fw-bold mt-4" style='color:black;background:white'>Your Source for Future Gadgets </h2>
-              <p class="lead" style='color:black;background:white'>Television, Refrigerator, Generator, Sound systems, Air conditional and others.</p>
+              <h2 class="text-dark display-5 fw-bold mt-4 p-4" style='border-radius:5px;color:black;background:white'>Your Source for Future Gadgets </h2>
+              <p class="lead p-4" style='border-radius:5px;color:black;background:white'>Television, Refrigerator, Generator, Sound systems, Air conditional and others.</p>
               <a href="https://wa.me/2347047026374?text=Hi,%20I%20want%20to%20make%20enquiries%20on%20the%20available%20electronics%20at%20Mancity%20Mega%20store%20" class="btn btn-dark mt-3">Shop Now <i class="feather-icon icon-arrow-right ms-1"></i></a>
             </div>
 
@@ -429,8 +429,8 @@
             style="background: url(mancity/assets/images/bg2.jpg)no-repeat; background-size: cover; border-radius: .5rem; background-position: center;">
             <div class="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
               <span class="badge text-bg-warning">Mancity Standard Electronics</span>
-              <h2 class="text-dark display-5 fw-bold mt-4" style='color:black;background:white'>Electronics at it's <br> cheapest price.</h2>
-              <p class="lead" style='color:black;background:white'>Free Delivery on items more than NGN100,000.
+              <h2 class="text-dark display-5 fw-bold mt-4 p-4" style='border-radius:5px;color:black;background:white'>Electronics at it's <br> cheapest price.</h2>
+              <p class="lead p-4" style='border-radius:5px;color:black;background:white'>Free Delivery on items more than NGN100,000.
               </p>
               <a href="https://wa.me/2347047026374?text=Hi,%20I%20want%20to%20make%20enquiries%20on%20the%20available%20electronics%20at%20Mancity%20Mega%20store%20" class="btn btn-dark mt-3">Shop Now <i class="feather-icon icon-arrow-right ms-1"></i></a>
             </div>

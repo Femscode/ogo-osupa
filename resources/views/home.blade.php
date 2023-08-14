@@ -80,7 +80,7 @@
           <!-- <li><a class="nav-link scrollto" href="#contact">Curriculum</a></li> -->
           <li><a class="nav-link scrollto " href="/installmentscheme">Plan For Tommorrow</a></li>
           <li><a class="nav-link scrollto" href="/atonigba">Atonigba</a></li>
-          <li><a class="nav-link scrollto" href="/mancity_store">Grocery</a></li>
+          <li><a class="nav-link scrollto" href="/mancity_store">Mancity Electronic Store</a></li>
           <li><a href="#contact">Contact Us</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -253,12 +253,12 @@
         <div class="col-md-7 pt-5 order-2 order-md-1">
           <h3>Atonigba Foundation</h3>
           <p>
-            Human Right protection is very essential and mandatory, that is why we have a foundation back up with law,
-            to protect and make sure that human right are not violated by all means. We have professional lawyers
-            in different categories (Land acquisition, Marital Affairs,Unlawful Properties Hidjacking and Basic human
-            right protection) </p>
-          <a href='/humanright'><button style='background:#ff5821' class='btn btn-danger'>Protect your right
-              today!</button></a>
+            Human Right protection is very essential and mandatory.That is why we have a foundation back up with law,
+            to protect and make sure that human Right are not violated by all means. We have professional Lawyers
+            in different categories (Land Acquisition, Marital Affairs,Unlawful Properties Hidjacking and Basic Human
+            Right Protection) </p>
+          <a href='/humanright'><button style='background:#ff5821' class='btn btn-danger'>Protect Your Right
+              Today!</button></a>
         </div>
       </div>
 
