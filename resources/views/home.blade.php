@@ -92,7 +92,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="container" data-aos="fade-in">
-      <h1>Ogo Osupa Media Concept</h1>
+      <h1>Ogo Osupa Concept</h1>
       <h2>Providing high quality and reliable service that satisfy your demand and expectations.</h2>
       <div class="d-flex align-items-center">
         <i class="bx bxs-right-arrow-alt get-started-icon"></i>
@@ -112,11 +112,11 @@
             <div class="content">
               <h3>Why Choose Us?</h3>
               <p>
-                We are a multipurpose concept that deals with media and entertainment,
-                broadcasting and advertisement,Protection of human right (Atonigba foundation)
+                We are a multipurpose concept that deals with transportation investment scheme(Plan For Tommorrow),
+                broadcasting, advertisement, entertainment and protection of human right (Atonigba foundation)
                 <span id='moredot'>...</span><span id='moretext' style='display:none'>
 
-                  and transportation investment scheme(Plan For Tommorrow).Our aim is just to eliminate stress and delay
+                  .Our aim is just to eliminate stress and delay
                   in services in the range of services we covered. We have connected workers all over the country to
                   ease the execution of services demanded from us.We are qualified and certified in all aspects that our
                   concept convers and we provide those services with full dedications and eliminate time wastage.
@@ -137,12 +137,10 @@
                 <div class="col-xl-7 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bx bx-receipt"></i>
-                    <h4>Media and Entertainment</h4>
-                    <p>We provide realiable and affordable media and entertainment services.
+                    <h4>Introducing Mancity Standard Electronics Store</h4>
+                    <p>Explore our diverse selection of top-quality electronics, ranging from high-definition televisions to efficient refrigerators,
                       <span id='mediadot'>...</span><span id='mediamore' style='display:none'>
-                        We help with the broadcasting and advertisements of your business/product and all forms
-                        of services you renders.We also anchor a cooperate event and provide a lively
-                        entertainment in music, comedy, jokes and we can get hired as an MC.</span><br>
+                        powerful generators, soothing air conditioners, innovative kitchen electronics, and immersive sound systems. Elevate your living spaces with the latest in technology and convenience, all available at our store.</span><br>
                       <a onclick='moreMedia()' id='mediabtn' style='display: inline-block;
     background: #fff;
     padding: 6px 30px 8px 30px;
