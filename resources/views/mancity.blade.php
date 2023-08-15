@@ -273,7 +273,7 @@
             <div class="">
               <ul class="navbar-nav align-items-center ">
                 <li class="nav-item dropdown w-100 w-lg-auto">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     Home
                   </a>

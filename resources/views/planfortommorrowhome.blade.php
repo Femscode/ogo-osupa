@@ -63,8 +63,8 @@
               </li>
               <!-- <li><a class="nav-link scrollto" href="#contact">Curriculum</a></li> -->
               <li><a class="nav-link scrollto " href="#planfortommorrow">Plan For Tommorrow</a></li>
-              <li><a class="nav-link scrollto" href="/atonigba">Atonigba</a></li>
-              <li><a class="nav-link scrollto" href="/mancity_store">Mancity Electronic Store</a></li>
+              <li><a class="nav-link scrollto" href="/humanright">Atonigba</a></li>
+              {{-- <li><a class="nav-link scrollto" href="/mancity_store">Mancity Electronic Store</a></li> --}}
               {{-- <li><a href="blog.html">Contact Us</a></li> --}}
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
@@ -109,8 +109,8 @@
             <ul>
               <li><i class="ri-check-double-line"></i> We allow major investors invest in transportation vehicles like
                 bikes, cars, trunks and lorries under our care, control and supervision.</li>
-              <li><i class="ri-check-double-line"></i> We then let out these transportation vehicles to an approved,
-                responsible and fully accessed youth by us for business usage</li>
+              <li><i class="ri-check-double-line"></i> We then let out these transportation vehicles to a certified,
+                responsible and fully accessed youth by our team for business usage.</li>
               <li><i class="ri-check-double-line"></i> Our company will then be paying investors at the agreed time
                 based on the investment plan.</li>
             </ul>
@@ -251,7 +251,7 @@
               <div class="row">
                 <div class="col-lg-9 text-center text-lg-start">
                   <h3>Get vehicle for business purposes</h3>
-                  <p> As a responsible, hardworking, good background and well behaved youth, you are qualified to enjoy
+                  <p> As a responsible, hardworking, and well behaved youth, you are qualified to enjoy
                     these benefit from us in just one click ahead
                     <br>Click on the link below to fill the form to show your interest and then proceed to the company's
                     head office at Onikolobo,
