@@ -46,7 +46,7 @@
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope d-flex align-items-center"><a
             href="mailto:support@ogoosupaconcept.com">support@ogoosupaconcept.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+234 808 267 8077</span></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+234 808 2678 077</span></i>
       </div>
 
       <div class="cta d-none d-md-flex align-items-center">
@@ -815,7 +815,7 @@
                 
               </ul> -->
               <div class="btn-wrap">
-                <a href="https://wa.me/2348091265228?text=Hi%20my%20name%20is%20(%20Please%20Input%20your%20name%20)%20I%20need%20the%20service%20of%20Ogoosupa%20concept%20in%20..."
+                <a href="https://wa.me/2348082678077?text=Hi%20my%20name%20is%20(%20Please%20Input%20your%20name%20)%20I%20need%20the%20service%20of%20Ogoosupa%20concept%20in%20..."
                   class="btn-buy">Book Us</a>
               </div>
             </div>
@@ -846,7 +846,7 @@
                 <li>Text Books - #25,000</li>
               </ul> -->
               <div class="btn-wrap">
-                <a href="https://wa.me/2348091265228?text=Hi%20my%20name%20is%20(%20Please%20Input%20your%20name%20)%20I%20want%20to%20make%20an%20investment%20..."
+                <a href="https://wa.me/2348082678077?text=Hi%20my%20name%20is%20(%20Please%20Input%20your%20name%20)%20I%20want%20to%20make%20an%20investment%20..."
                   class="btn-buy">More Enquiry</a>
               </div>
             </div>
@@ -864,7 +864,7 @@
                 <li>WAEC Registration - #55,000</li>
               </ul> -->
               <div class="btn-wrap">
-                <a href="https://wa.me/2348091265228?text=Hi%20my%20name%20is%20(%20Please%20Input%20your%20name%20)%20I%20want%20to%20make%20an%20investment%20..."
+                <a href="https://wa.me/2348082678077?text=Hi%20my%20name%20is%20(%20Please%20Input%20your%20name%20)%20I%20want%20to%20make%20an%20investment%20..."
                   class="btn-buy">More Enquiry</a>
               </div>
             </div>
@@ -976,7 +976,7 @@
             <div class="info-box">
               <i class="bx bx-phone-call"></i>
               <h3 style='text-align:center'>Call Us</h3>
-              <p>+234 808 267 8077<br>+234 812 411 9883 </p>
+              <p>+234 808 2678 077<br>+234 812 411 9883 </p>
             </div>
           </div>
           {{-- <div class="col-xl-3 col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="200">
@@ -1045,7 +1045,7 @@
               Suite 32, Estate plaza, <br>Magodo Phase 2, <br>Lagos State <br><br>
               Address 2: Onikolobo, <br> Behind WAEC Office<br>Ogun State<br><br>
 
-              <strong>Phone:</strong> +234 808 267 8077<br>
+              <strong>Phone:</strong> +234 808 2678 077<br>
               <strong>Email:</strong> support@ogoosupaconcept.com<br>
             </p>
           </div>

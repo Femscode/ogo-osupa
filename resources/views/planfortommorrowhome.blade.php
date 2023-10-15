@@ -231,8 +231,10 @@
               <div class="icon"><i class="bx bx-car"></i></div>
               <h4><a>{{$price->plan}}</a></h4>
               <p>Invest with our <strong>{{ $price->plan }}</strong> plan  with a sum of ₦{{number_format($price->investment_amount)}}, and you
-                get a total sum of ₦{{number_format($price->profit)}} at the end of {{$price->duration}}. (You will be
-                paid a sum of #10,000 weekly for 10Months).<br>
+                get a total sum of ₦{{number_format($price->profit)}} at the end of {{$price->duration}}.
+                 {{-- (You will be
+                paid a sum of #10,000 weekly for 10Months). --}}
+                <br>
 
               </p>
             </div>
