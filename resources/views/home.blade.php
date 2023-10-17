@@ -220,7 +220,7 @@
 
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
               <div class="icon"><i class="bx bx-money"></i></div>
-              <h4 class="title"><a href="">Get Installment </a></h4>
+              <h4 class="title"><a href="">Get Installments </a></h4>
               <p class="description">Our company will then be paying investors based on agreement.</p>
             </div>
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
