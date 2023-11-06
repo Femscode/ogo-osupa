@@ -117,11 +117,11 @@
                                                 <button type='submit' class='fa fa-call btn btn-success'>Update</button>
                                                 @if($prices->status == 1)
                                                 <a onclick='return confirm("Are you sure you want to disable this investment plan?")'
-                                                    href='/disableB/{{ $price->id }}'
+                                                    href='/disableB/{{ $prices->id }}'
                                                     class='fa fa-call btn btn-danger mt-2'>Disable</a>
                                                 @else
                                                 <a onclick='return confirm("Are you sure you want to enable this investment plan?")'
-                                                    href='/disableB/{{ $price->id }}'
+                                                    href='/disableB/{{ $prices->id }}'
                                                     class='fa fa-call btn btn-info mt-2'>Enable</a>
                                                 @endif
 
