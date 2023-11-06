@@ -223,7 +223,7 @@
           @endforeach
         
         </div>
-        <h4><b>Second Category</b></h4>
+        {{-- <h4><b>Second Category</b></h4> --}}
         <div class="row">
           @foreach($pricesB as $key => $price)
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-4">

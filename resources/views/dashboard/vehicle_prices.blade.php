@@ -59,6 +59,15 @@
 
                                             <td>
                                                 <button type='submit' class='fa fa-call btn btn-success'>Update</button>
+                                                @if($price->status == 1)
+                                                <a onclick='return confirm("Are you sure you want to disable this investment plan?")'
+                                                    href='/disable/{{ $price->id }}'
+                                                    class='fa fa-call btn btn-danger mt-2'>Disable</a>
+                                                @else
+                                                <a onclick='return confirm("Are you sure you want to enable this investment plan?")'
+                                                    href='/disable/{{ $price->id }}'
+                                                    class='fa fa-call btn btn-info mt-2'>Enable</a>
+                                                @endif
                                             </td>
                                         </form>
 
@@ -86,7 +95,7 @@
                                     <th scope="col">Investment Amount</th>
                                     <th scope="col">Profit</th>
                                     <th scope="col">Duration</th>
-                                 
+
                                     <th scope="col">Action</th>
                                     </tr>
                                 </thead>
@@ -103,9 +112,19 @@
                                                     value='{{$prices->profit ?? ""}}'></td>
                                             <td><input type='text' name='duration' class='form-control'
                                                     value='{{$prices->duration ?? ""}}'></td>
-                                           
+
                                             <td>
                                                 <button type='submit' class='fa fa-call btn btn-success'>Update</button>
+                                                @if($prices->status == 1)
+                                                <a onclick='return confirm("Are you sure you want to disable this investment plan?")'
+                                                    href='/disableB/{{ $price->id }}'
+                                                    class='fa fa-call btn btn-danger mt-2'>Disable</a>
+                                                @else
+                                                <a onclick='return confirm("Are you sure you want to enable this investment plan?")'
+                                                    href='/disableB/{{ $price->id }}'
+                                                    class='fa fa-call btn btn-info mt-2'>Enable</a>
+                                                @endif
+
                                             </td>
                                         </form>
 

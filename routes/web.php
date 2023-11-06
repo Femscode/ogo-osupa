@@ -34,6 +34,8 @@ Route::get('tv_programs','UserController@tv_programs')->name('tv_programs')->mid
 Route::get('atonigba','UserController@atonigba')->name('atonigba')->middleware('auth');
 Route::get('user_files','UserController@user_files')->name('user_files')->middleware('auth');
 Route::get('vehicle_prices','UserController@vehicle_prices')->name('vehicle_prices')->middleware('auth');
+Route::get('disable/{id}','UserController@disable_price')->name('disable_price')->middleware('auth');
+Route::get('disableB/{id}','UserController@disable_priceB')->name('disable_priceB')->middleware('auth');
 
 Route::any('/logout', 'HomeController@logout')->name('logout');
 Route::get('planfortommorrowform','UserController@planfortommorrowform')->name('planfortommorrowform');

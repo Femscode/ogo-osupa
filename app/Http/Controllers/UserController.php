@@ -31,8 +31,8 @@ class UserController extends Controller
     }
     public function planfortommorrowhome()
     {
-        $data['prices'] = Prices::get();
-        $data['pricesB'] = PriceB::get();
+        $data['prices'] = Prices::where('status',1)->get();
+        $data['pricesB'] = PriceB::where('status',1)->get();
         return view('planfortommorrowhome', $data);
     }
     public function createPrice(Request $request, $id)
@@ -153,6 +153,26 @@ class UserController extends Controller
 
         return view('dashboard.vehicle_prices', $data);
         return view('admin', $data);
+    }
+    public function disable_price($id)
+    {
+        $data['prices'] = $price = Prices::find($id);
+        $price->status = !$price->status;
+        $price->save();
+        
+       
+        return redirect()->back()->with('message', "Plan Status Updated Successfully!");
+    }
+    public function disable_priceB($id)
+    {
+       
+        $data['pricesB'] = $price = PriceB::find($id);
+       
+        $price->status = !$price->status;
+        $price->save();
+        return redirect()->back()->with('message', "Plan Status Updated Successfully!");
+       
+       
     }
     public function user_files()
     {
