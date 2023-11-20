@@ -1041,9 +1041,9 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>O.O.M.C</h3>
             <p>
-              Head Office : Behind WAEC Office, <br> Onikolobo, Abeokuta, <br>Ogun State<br><br>
-              Lagos Branch Office : No 23, Estate Plaza,<br> Emmanuel Keshi,Magbodo Phase 2 <br>Lagos State<br><br>
-              Abuja Branch Office : Suit A1, DBF Plaza,<br> No. 132, 1st Avenue,<br> FHA Estate, Lugbe <br>Abuja, FCT.<br><br>
+              <strong>Head Office :</strong> Behind WAEC Office, <br> Onikolobo, Abeokuta, <br>Ogun State<br><br>
+              <strong>Lagos Branch Office :</strong> No 23, Estate Plaza,<br> Emmanuel Keshi,Magbodo Phase 2 <br>Lagos State<br><br>
+              <strong>Abuja Branch Office :</strong> Suit A1, DBF Plaza,<br> No. 132, 1st Avenue,<br> FHA Estate, Lugbe <br>Abuja, FCT.<br><br>
 
               <strong>Phone:</strong> +234 808 2678 077<br>
               <strong>Email:</strong> support@ogoosupaconcept.com<br>
