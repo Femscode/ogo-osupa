@@ -624,7 +624,7 @@
 
         <div class="row">
 
-          <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
             <div class="member d-flex align-items-start">
               <div class="pic"><img style='max-width: 50%;float: left;' src="assets/img/ogoosupa.jpeg" class="img-fluid"
                   alt=""></div>
@@ -642,7 +642,7 @@
             </div>
           </div>
 
-          <div class="col-lg-6 mt-4 mt-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+          {{-- <div class="col-lg-6 mt-4 mt-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
             <div class="member d-flex align-items-start">
               <div class="pic"><img style='max-width: 50%;float: left;' src="assets/img/gm.jpeg" class="img-fluid"
                   alt=""></div>
@@ -658,7 +658,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> --}}
 
           <!--  <div class="col-lg-6 mt-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
             <div class="member d-flex align-items-start">
@@ -838,7 +838,7 @@
           <div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
             <div class="box">
               <h3>Plan For Tommorrow</h3>
-              <h4><sup>#</sup>300,000<span> / minimum</span></h4>
+              <h4><sup>#</sup>500,000<span> / minimum</span></h4>
               <!-- <ul>
               <li>PTA fee - #10,000</li>
                 <li>Uniform Fee - #10,000</li>
@@ -960,7 +960,7 @@
             <div class="info-box">
               <i class="bx bx-map"></i>
               <h3>Our Address</h3>
-              <p>Suite 32, Estate plaza, Magodo Phase 2, Lagos State.</p>
+              <p>Behind WAEC Office, Onikolobo, Abeokuta, Ogun State.</p>
             </div>
           </div>
 
@@ -1041,8 +1041,9 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>O.O.M.C</h3>
             <p>
-              Suite 32, Estate plaza, <br>Magodo Phase 2, <br>Lagos State <br><br>
-              Address 2: Onikolobo, <br> Behind WAEC Office<br>Ogun State<br><br>
+              Head Office : Behind WAEC Office, <br> Onikolobo, Abeokuta, <br>Ogun State<br><br>
+              Lagos Branch Office : No 23, Estate Plaza,<br> Emmanuel Keshi,Magbodo Phase 2 <br>Lagos State<br><br>
+              Abuja Branch Office : Suit A1, DBF Plaza,<br> No. 132, 1st Avenue,<br> FHA Estate, Lugbe <br>Abuja, FCT.<br><br>
 
               <strong>Phone:</strong> +234 808 2678 077<br>
               <strong>Email:</strong> support@ogoosupaconcept.com<br>
@@ -1087,7 +1088,7 @@
 
       <div class="me-lg-auto text-center text-lg-start">
         <div class="copyright">
-          &copy; Powered by<strong><a href='https://thecaretech.org'> Caretech</a></strong>. All Rights Reserved, <?php echo Date('Y')?>
+          &copy; Powered by<strong><a href='https://caretech.netlify.app'> Caretech</a></strong>. All Rights Reserved, <?php echo Date('Y')?>
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
