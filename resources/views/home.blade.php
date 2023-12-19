@@ -292,8 +292,8 @@
             
                 <h4 class="title text-center"><a href="">{{$video->title}} </a></h4>
                 <video height="240" style='margin:auto;width:100%' controls>
-                  <source src="/videos/{{$video->video}}" type="video/mp4">
-                  <source src="/videos/{{$video->video}}" type="video/ogg">
+                  <source src="/ogo_files/videos/{{$video->video}}" type="video/mp4">
+                  <source src="/ogo_files/videos/{{$video->video}}" type="video/ogg">
                   Your browser does not support the video tag.
                 </video>
             
@@ -851,23 +851,18 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+          {{-- <div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="box">
               <span class="advanced">ADVANCED</span>
               <h3>Plan For Tommorrow</h3>
               <h4><sup>#</sup>100,000,000<span> / maximum</span></h4>
-              <!-- <ul>
-              <li>PTA fee - #10,000</li>
-                <li>Uniform Fee - #10,000</li>
-                <li>Text Books - #35,000</li>
-                <li>WAEC Registration - #55,000</li>
-              </ul> -->
+            
               <div class="btn-wrap">
                 <a href="https://wa.me/2348082678077?text=Hi%20my%20name%20is%20(%20Please%20Input%20your%20name%20)%20I%20want%20to%20make%20an%20investment%20..."
                   class="btn-buy">More Enquiry</a>
               </div>
             </div>
-          </div>
+          </div> --}}
 
         </div>
 

@@ -50,7 +50,7 @@
                                         <th scope="row">{{++$key}}</th>
                                         <td>{{$customer->title}}</td>
                                         <td> <video width="150" height="100" controls>
-                                                <source src="/public/videos/{{$customer->video}}"
+                                                <source src="/ogo_files/public/videos/{{$customer->video}}"
                                                     type="video/mp4">
                                                 <source src="/public/videos/{{$customer->video}}"
                                                     type="video/ogg">
