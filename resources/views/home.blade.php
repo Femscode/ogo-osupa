@@ -292,7 +292,7 @@
             
                 <h4 class="title text-center"><a href="">{{$video->title}} </a></h4>
                 <video height="240" style='margin:auto;width:100%' controls>
-                  <source src="https://ogoosupaconcept.com/ogo_files/videos/{{$video->video}}" type="video/mp4">
+                  <source src="https://ogoosupaconcept.com/ogo_files/public/videos/{{$video->video}}" type="video/mp4">
                   <source src="https://ogoosupaconcept.com/ogo_files/videos/{{$video->video}}" type="video/ogg">
                   Your browser does not support the video tag.
                 </video>

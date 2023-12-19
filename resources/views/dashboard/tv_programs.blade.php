@@ -50,9 +50,9 @@
                                         <th scope="row">{{++$key}}</th>
                                         <td>{{$customer->title}}</td>
                                         <td> <video width="150" height="100" controls>
-                                                <source src="/ogo_files/public/videos/{{$customer->video}}"
+                                                <source src="https://ogoosupaconcept.com/ogo_files/public/videos/{{$customer->video}}"
                                                     type="video/mp4">
-                                                <source src="/public/videos/{{$customer->video}}"
+                                                <source src="https://ogoosupaconcept.com/ogo_files/public/videos/{{$customer->video}}"
                                                     type="video/ogg">
                                                 Your browser does not support the video tag.
                                             </video>
