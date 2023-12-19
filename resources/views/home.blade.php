@@ -292,8 +292,8 @@
             
                 <h4 class="title text-center"><a href="">{{$video->title}} </a></h4>
                 <video height="240" style='margin:auto;width:100%' controls>
-                  <source src="/ogo_files/videos/{{$video->video}}" type="video/mp4">
-                  <source src="/ogo_files/videos/{{$video->video}}" type="video/ogg">
+                  <source src="https://ogoosupaconcept.com/ogo_files/videos/{{$video->video}}" type="video/mp4">
+                  <source src="https://ogoosupaconcept.com/ogo_files/videos/{{$video->video}}" type="video/ogg">
                   Your browser does not support the video tag.
                 </video>
             
@@ -802,7 +802,7 @@
 
         <div class="row">
 
-          <div class="col-lg-3 col-md-6" data-aos="fade-up">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
             <div class="box">
               <h3>Coperate Events</h3>
               <h4><sup>#</sup>200,000<span> / event</span></h4>
@@ -820,7 +820,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="100">
             <div class="box featured">
               <h3>Human Right Protection</h3>
               <h4><sup>#</sup>10,000<span> / form</span></h4><br>
@@ -835,7 +835,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
             <div class="box">
               <h3>Plan For Tommorrow</h3>
               <h4><sup>#</sup>500,000<span> / minimum</span></h4>
