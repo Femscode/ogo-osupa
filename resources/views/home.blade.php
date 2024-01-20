@@ -138,9 +138,12 @@
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bx bx-receipt"></i>
                     <h4>Celebrating six successful years of empowering investors.🎉🎉</h4>
-                    <p>We've been your trusted partner in growing your wealth through strategic investments in motorcycles, trunks, and more.
+                    <p>We've been your trusted partner in growing your wealth through strategic investments in
+                      motorcycles, trunks, and more.
                       <span id='mediadot'>...</span><span id='mediamore' style='display:none'>
-                        Join us in commemorating our journey of six incredible years on August 25th, 2023, as we continue to pave the way for a secure financial future. Invest with confidence, invest with Plan for Tomorrow.</span><br>
+                        Join us in commemorating our journey of six incredible years on August 25th, 2023, as we
+                        continue to pave the way for a secure financial future. Invest with confidence, invest with Plan
+                        for Tomorrow.</span><br>
                       <a onclick='moreMedia()' id='mediabtn' style='display: inline-block;
     background: #fff;
     padding: 6px 30px 8px 30px;
@@ -148,7 +151,7 @@
     border:1px solid #ff5821;
     border-radius: 50px;
     transition: all ease-in-out 0.4s;' class="more-btn">Read More </a><br>
-                      <br> 
+                      <br>
                       {{-- <a href="#!" class="more-btn" style='display: inline-block;
     background: #ff5821;
     padding: 6px 30px 8px 30px;
@@ -289,14 +292,14 @@
 
             @foreach($videos as $video)
             <div class="col-lg-6 col-md-6" data-aos="fade-up">
-            
-                <h4 class="title text-center"><a href="">{{$video->title}} </a></h4>
-                <video height="240" style='margin:auto;width:100%' controls>
-                  <source src="https://ogoosupaconcept.com/ogo_files/public/videos/{{$video->video}}" type="video/mp4">
-                  <source src="https://ogoosupaconcept.com/ogo_files/videos/{{$video->video}}" type="video/ogg">
-                  Your browser does not support the video tag.
-                </video>
-            
+
+              <h4 class="title text-center"><a href="">{{$video->title}} </a></h4>
+              <video height="240" style='margin:auto;width:100%' controls>
+                <source src="https://ogoosupaconcept.com/ogo_files/public/videos/{{$video->video}}" type="video/mp4">
+                <source src="https://ogoosupaconcept.com/ogo_files/videos/{{$video->video}}" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+
             </div>
             @endforeach
           </div>
@@ -495,7 +498,7 @@
     <!-- End Testimonials Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+    {{-- <section id="portfolio" class="portfolio">
       <div class="container">
 
         <div class="section-title">
@@ -519,13 +522,14 @@
           </div>
         </div>
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-          <!--
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>FoodStuff 1</h4>
               <p>Food Stuff</p>
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
@@ -535,7 +539,8 @@
             <div class="portfolio-info">
               <h4>Provision 3</h4>
               <p>Provision</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
@@ -545,7 +550,8 @@
             <div class="portfolio-info">
               <h4>FoodStuff 2</h4>
               <p>Food Stuff</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
@@ -555,17 +561,19 @@
             <div class="portfolio-info">
               <h4>Ingredients 2</h4>
               <p>Food Ingredients</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Provisions 2</h4>
               <p>Provisions</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
@@ -575,7 +583,8 @@
             <div class="portfolio-info">
               <h4>FoodStuff 3</h4>
               <p>Food Stuff</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
@@ -585,7 +594,8 @@
             <div class="portfolio-info">
               <h4>Ingredients 1</h4>
               <p>Food Ingredients</p>
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
@@ -595,25 +605,27 @@
             <div class="portfolio-info">
               <h4>Ingredients 3</h4>
               <p>Food Ingredients</p>
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Provisions 3</h4>
               <p>Provisions</p>
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
--->
+
         </div>
 
       </div>
-    </section><!-- End Portfolio Section -->
+    </section><!-- End Portfolio Section --> --}}
     <section id="team" class="team section-bg">
       <div class="container aos-init aos-animate" data-aos="fade-up">
 
@@ -856,7 +868,7 @@
               <span class="advanced">ADVANCED</span>
               <h3>Plan For Tommorrow</h3>
               <h4><sup>#</sup>100,000,000<span> / maximum</span></h4>
-            
+
               <div class="btn-wrap">
                 <a href="https://wa.me/2348082678077?text=Hi%20my%20name%20is%20(%20Please%20Input%20your%20name%20)%20I%20want%20to%20make%20an%20investment%20..."
                   class="btn-buy">More Enquiry</a>
@@ -886,7 +898,8 @@
                 <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
                 <p>
-                  Depending on the plan, channel and the duration of the advertisement,the minimum you can get your
+                  Depending on the plan, channel and the duration of the advertisement,the minimum you can get
+                  your
                   business or product advertised is #100,000
                 </p>
               </div>
@@ -894,26 +907,31 @@
 
             <li data-aos="fade-up" data-aos-delay="100">
               <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2"
-                class="collapsed">How long does it takes to start getting paid after investing in the Plan for Tommorrow
+                class="collapsed">How long does it takes to start getting paid after
+                investing in the Plan for Tommorrow
                 Scheme?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  After an agreement has been made with our company, you start receiving payment from us few months after
+                  After an agreement has been made with our company, you start receiving payment from us few
+                  months
+                  after
                   you invest with us.
                 </p>
               </div>
             </li>
 
-            <li data-aos="fade-up" data-aos-delay="200">
+            {{-- <li data-aos="fade-up" data-aos-delay="200">
               <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3"
-                class="collapsed">What are the things I can get from Ogo Osupa Concept Grocery Store? <i
-                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                class="collapsed">What are the things I can get from Ogo Osupa
+                Concept Grocery Store? <i class="bx bx-chevron-down icon-show"></i><i
+                  class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  You can get provisions from us in bulk quantity at the best price possible. Our products are directly
+                  You can get provisions from us in bulk quantity at the best price possible. Our products are
+                  directly
                   from companies and we don't sell in units. </p>
               </div>
-            </li>
+            </li> --}}
 
             <li data-aos="fade-up" data-aos-delay="300">
               <p>Have more questions? you can chat us up on whatsapp, we attend to your need anyday,anytime</p>
@@ -1037,8 +1055,10 @@
             <h3>O.O.M.C</h3>
             <p>
               <strong>Head Office :</strong> Behind WAEC Office, <br> Onikolobo, Abeokuta, <br>Ogun State<br><br>
-              <strong>Lagos Branch Office :</strong> No 23, Estate Plaza,<br> Emmanuel Keshi,Magbodo Phase 2 <br>Lagos State<br><br>
-              <strong>Abuja Branch Office :</strong> Suit A1, DBF Plaza,<br> No. 132, 1st Avenue,<br> FHA Estate, Lugbe <br>Abuja, FCT.<br><br>
+              <strong>Lagos Branch Office :</strong> No 23, Estate Plaza,<br> Emmanuel Keshi,Magbodo Phase 2 <br>Lagos
+              State<br><br>
+              <strong>Abuja Branch Office :</strong> Suit A1, DBF Plaza,<br> No. 132, 1st Avenue,<br> FHA Estate, Lugbe
+              <br>Abuja, FCT.<br><br>
 
               <strong>Phone:</strong> +234 808 2678 077<br>
               <strong>Email:</strong> support@ogoosupaconcept.com<br>
@@ -1083,7 +1103,8 @@
 
       <div class="me-lg-auto text-center text-lg-start">
         <div class="copyright">
-          &copy; Powered by<strong><a href='https://caretech.netlify.app'> Caretech</a></strong>. All Rights Reserved, <?php echo Date('Y')?>
+          &copy; Powered by<strong><a href='https://caretech.netlify.app'> Caretech</a></strong>. All Rights Reserved,
+          <?php echo Date('Y')?>
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->

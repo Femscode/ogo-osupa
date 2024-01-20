@@ -10,8 +10,9 @@ use App\Prices;
 use App\Contact;
 use App\Atonigba;
 use App\Models\PriceB;
-use App\Planfortommorrow;
+use App\Models\PriceC;
 // Use Alert;
+use App\Planfortommorrow;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use RealRashid\SweetAlert\Facades\Alert;;
@@ -33,6 +34,7 @@ class UserController extends Controller
     {
         $data['prices'] = Prices::where('status',1)->get();
         $data['pricesB'] = PriceB::where('status',1)->get();
+        $data['pricesC'] = PriceC::where('status',1)->get();
         return view('planfortommorrowhome', $data);
     }
     public function createPrice(Request $request, $id)
@@ -50,6 +52,18 @@ class UserController extends Controller
     public function createPriceB(Request $request, $id)
     {
         $price = PriceB::find($id);
+
+        $price->plan = $request->plan;
+        $price->investment_amount = $request->investment_amount;
+        $price->profit = $request->profit;
+        $price->duration = $request->duration;
+        $price->save();
+
+        return redirect()->back()->with('success', 'Vehicle Price Updated Successfully!');
+    }
+    public function createPriceC(Request $request, $id)
+    {
+        $price = PriceC::find($id);
 
         $price->plan = $request->plan;
         $price->investment_amount = $request->investment_amount;
@@ -149,6 +163,7 @@ class UserController extends Controller
     {
         $data['prices'] = Prices::paginate(10);
         $data['pricesB'] = PriceB::paginate(10);
+        $data['pricesC'] = PriceC::paginate(10);
         $data['user'] = Auth::user();
 
         return view('dashboard.vehicle_prices', $data);

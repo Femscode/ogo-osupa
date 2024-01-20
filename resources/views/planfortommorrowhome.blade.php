@@ -242,6 +242,24 @@
           @endforeach
         
         </div>
+        <div class="row">
+          @foreach($pricesC as $key => $price)
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-4">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-car"></i></div>
+              <h4><a>{{$price->plan}}</a></h4>
+              <p>Invest with our <strong>{{ $price->plan }}</strong> plan  with a sum of ₦{{number_format($price->investment_amount)}}, and you
+                get a total sum of ₦{{number_format($price->profit)}} at the end of {{$price->duration}}.
+                 {{-- (You will be
+                paid a sum of #10,000 weekly for 10Months). --}}
+                <br>
+
+              </p>
+            </div>
+          </div>
+          @endforeach
+        
+        </div>
 
       </div>
     </section>

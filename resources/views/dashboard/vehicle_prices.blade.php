@@ -136,6 +136,60 @@
                         <h6>{{$pricesB->links()}}</h6>
                     </div>
                 </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="mt-0 header-title mb-4">Category C</h4>
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead>
+
+
+                                    <th scope="col">ID</th>
+                                    <th scope="col">Plan</th>
+                                    <th scope="col">Investment Amount</th>
+                                    <th scope="col">Profit</th>
+                                    <th scope="col">Duration</th>
+
+                                    <th scope="col">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach($pricesC as $key => $prices)
+                                    <tr>
+                                        <form method='post' action='{{route("createPriceC",[$prices->id])}}'>@csrf
+                                            <th scope="row">{{++$key}}</th>
+                                            <td><input type='text' name='plan' class='form-control'
+                                                    value='{{$prices->plan ?? ""}}'></td>
+                                            <td><input type='number' name='investment_amount' class='form-control'
+                                                    value='{{$prices->investment_amount ?? ""}}'></td>
+                                            <td><input type='number' name='profit' class='form-control'
+                                                    value='{{$prices->profit ?? ""}}'></td>
+                                            <td><input type='text' name='duration' class='form-control'
+                                                    value='{{$prices->duration ?? ""}}'></td>
+
+                                            <td>
+                                                <button type='submit' class='fa fa-call btn btn-success'>Update</button>
+                                                @if($prices->status == 1)
+                                                <a onclick='return confirm("Are you sure you want to disable this investment plan?")'
+                                                    href='/disableB/{{ $prices->id }}'
+                                                    class='fa fa-call btn btn-danger mt-2'>Disable</a>
+                                                @else
+                                                <a onclick='return confirm("Are you sure you want to enable this investment plan?")'
+                                                    href='/disableB/{{ $prices->id }}'
+                                                    class='fa fa-call btn btn-info mt-2'>Enable</a>
+                                                @endif
+
+                                            </td>
+                                        </form>
+
+                                    </tr>
+                                    @endforeach
+                                </tbody>
+                            </table>
+                        </div>
+                        <h6>{{$pricesB->links()}}</h6>
+                    </div>
+                </div>
 
 
             </div>

@@ -25,6 +25,7 @@ Route::get('deletevideo/{id}','userController@deletevideo')->name('deletevideo')
 Route::get('/','UserController@index')->name('homepage');
 Route::any('/createPrice/{id}','UserController@createPrice')->name('createPrice');
 Route::any('/createPriceB/{id}','UserController@createPriceB')->name('createPriceB');
+Route::any('/createPriceC/{id}','UserController@createPriceC')->name('createPriceC');
 Route::get('/installmentscheme','UserController@planfortommorrowhome')->name('planfortommorrowhome');
 Route::view('/humanright','atonigbahome')->name('atonigbahome');
 Route::get('dashboard','UserController@admin')->name('admin')->middleware('auth');
