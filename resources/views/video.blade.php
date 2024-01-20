@@ -128,11 +128,10 @@ label {
 
             <div class="col-lg-3 col-md-6 footer-contact">
               <h3>O.O.M.C</h3>
-              <p>
-                No 4, Beside Frontline Hotel,<br> Oluwo Road, Onikolobo,<br> Abeokuta
-                Ogun State <br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> mail@ogoosupaconcept.com<br>
+              <p>Behind WAEC Office, Onikolobo,<br> Abeokuta, Ogun State.
+                <br><br>
+                <strong>Phone:</strong>    <p>+234 808 2678 077, +234 812 411 9883 </p><br>
+                <strong>Email:</strong> support@ogoosupaconcept.com<br>
               </p>
             </div>
 

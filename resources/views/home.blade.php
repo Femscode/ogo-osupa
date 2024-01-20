@@ -838,7 +838,7 @@
           <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
             <div class="box">
               <h3>Plan For Tommorrow</h3>
-              <h4><sup>#</sup>500,000<span> / minimum</span></h4>
+              <h4><sup>#</sup>600,000<span> / minimum</span></h4>
               <!-- <ul>
               <li>PTA fee - #10,000</li>
                 <li>Uniform Fee - #10,000</li>
